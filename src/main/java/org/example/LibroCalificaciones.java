@@ -2,7 +2,6 @@ package org.example;
 
 public class LibroCalificaciones {
     private String nombreDelCurso;
-
     private String nombrePeriodo;
     private int anio;
     private Double promedio;
@@ -48,8 +47,8 @@ public class LibroCalificaciones {
         System.out.printf("El periodo ingresado de %s\n", obtenerNombrePeriodo() );
         System.out.printf("En el año %d\n", obtenerAnio() );
         System.out.printf("Con un promedio de %.2f\n", obtenerPromedio() );
-
-
     }
+    public void metodo1(){}
+    private void metodo2(){}
 
 }
